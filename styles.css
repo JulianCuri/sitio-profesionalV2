@@ -1,0 +1,434 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.header-text {
+    margin-top: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495e;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.methodology {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.methodology .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.methodology h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.methodology p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.methodology h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.methodology ul {
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.methodology ul li {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.methodology .centered-text {
+    margin-bottom: 30px;
+}
+
+.methodology-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.methodology-service-item {
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.methodology-service-item:hover {
+    transform: translateY(-5px);
+}
+
+.methodology-service-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.methodology-service-item p {
+    color: #333;
+    font-weight: bold;
+}
+
+.services {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service-item {
+    background-color: #ecf0f1;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    min-height: 100%;
+    transition:  box-shadow 0.3s;
+}
+
+.service-item:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.504);
+}
+
+.service-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.service-item img {
+    width: 60%;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0;
+}
+
+.service-item h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.contact {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+    text-align: center;
+}
+.large-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.input-group .Sendbtn {
+    width: 100%; 
+    padding: 10px; 
+    border: none; 
+    background-color: #007bff; 
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.input-group .Sendbtn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content, .copyright {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .service-item {
+        flex-direction: column;
+    }
+
+    .service-item img {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 20px auto 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
+}
+/* Tema Oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode nav ul {
+    background-color: #333;
+}
+
+.dark-mode nav ul li a {
+    color: #bbb;
+}
+
+.dark-mode nav ul li a:hover {
+    background-color: #444;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #333;
+}
+
+.dark-mode footer form div button {
+    background-color: #555;
+}
+
+/* Interruptor de modo oscuro */
+.switch {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(14px);
+}
+.dark-mode .methodology {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode .container.services {
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode .service-text{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode .methodology ul li{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode .contact{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode .container h2{
+    color: #fff;
+}
+.dark-mode .container h3{
+    color: #fff;
+}
+.dark-mode .container p{
+    color: #fff;
+}
+.dark-mode .methodology-service-item p{
+    color: #000;
+}
+body {
+    --background: #f9f9f9;
+    --text-color: #333;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+}
